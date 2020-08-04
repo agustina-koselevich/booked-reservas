@@ -1,0 +1,2383 @@
+/*reset
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*home-page*/
+
+#logo{
+    width: 150px;
+    height: 39px;
+    margin-left: 66px;
+    margin-top: 35px;
+}
+
+
+.body-homepage{
+    margin: 0px;
+    background-image: url('../images/fondo1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+.menu-principal ul{
+    list-style: none;
+    margin: 0px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 85px;
+    position: absolute;
+    top: 45px;
+    left: 960px;
+
+}
+
+
+
+.menu-principal ul li a{
+    color:#919191;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    padding-left: 15px;
+ 
+  }
+
+.menu-principal ul li a:hover{   
+    color: #5747ee;
+
+}
+
+.menu-principal ul li a.current:visited {
+    color: #5747ee;
+  }
+
+#menu-toggle{
+    display: none;
+}
+
+.menu-togglearea{
+    color: #919191;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.menu-togglearea label{
+    background-color: #5747ee;
+    width: 35px;
+    height: 35px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+
+.menu-togglearea label .menu-line{
+    background-color: white;
+    height: 2px;
+    width: 60%;
+    margin: 2px 0px;
+
+}
+
+
+
+
+.menu-togglearea{
+    display: none;
+
+}
+.contact-h3-1{
+    color: #5747ee;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    margin-top: 10px;
+    margin-left: 150px;
+    padding-bottom: 10px;
+
+}
+
+.contenedor-redes-1{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 0px;
+   
+
+}
+
+
+.contenedor-redes{
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 10px;
+
+}
+
+.redes-contact1{
+    width: 38px;
+    height: 38px;
+    align-items: center;
+    background-image: url('../images/logofacebook.svg'); 
+    background-repeat: no-repeat;
+    
+}
+
+.redes-contact1:hover{
+    background-image: url('../images/logofacebookhover.svg');
+    background-repeat: no-repeat;
+}
+
+.redes-contact2{
+    width: 38px;
+    height: 38px;
+    background-image: url('../images/instagramlogo.svg'); 
+    background-repeat: no-repeat;
+}
+
+.redes-contact2:hover{
+    background-image: url('../images/instagramlogohover.svg');
+    background-repeat: no-repeat;
+}
+
+.redes-contact3{
+    width: 38px;
+    height: 38px;
+    background-image: url('../images/logotwitter.svg'); 
+    background-repeat: no-repeat;
+}
+
+.redes-contact3:hover{
+    background-image: url('../images/logotwitterhover.svg');
+    background-repeat: no-repeat;
+}
+
+
+
+
+.contenedor-formulario-viaje{
+    width: 400px;
+    height: 470px;
+    padding: 40px 40px 20px 40px;
+    background-color: white;
+    border-style: none;
+    border-radius: 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: #d6d4d4;
+    position: absolute;
+    top: 170px;
+    left: 770px;
+}
+
+.contact-h3-11{
+    color: #5747ee;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-bottom: 10px;
+}
+
+.form-section-name{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #5747ee;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.form-section-name-color{
+    color: #575756;
+}
+
+.checbox-container{
+    width: 372px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+    color: #7c7c7b;
+}
+
+#checkbox-style{
+    height: 15px;
+    width: 15px;
+    background-color: #919191;
+    border: 1px;
+    border-radius: 30px;
+  }
+
+
+.bar-container{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    padding-bottom: 15px;
+}
+
+#countrySelect{
+    width: 370px;
+    height: 30px;
+    border: none;
+    color: #7c7c7b;
+    border: none;
+    border-width: 0px;
+    border-radius: 5px;
+    border-style: solid;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.chica-compu{
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.calendar{
+    color: #3c3c3b;
+    margin-bottom: 20px;
+}
+
+.people-container{
+    width: 330px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #3c3c3b;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+    color: #7c7c7b;
+}
+
+.heart-icon{
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    top: 150px;
+    left: 1200px;
+}
+
+.btn-send{
+    width: 150px;
+    height: 36px;
+    background-color: #5747ee;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 120px;
+    margin-top: 50px;
+
+
+    
+}
+
+
+
+.p2-js{
+    width: 735px;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 310px;
+    margin-bottom: 50px;
+    color:#7c7c7b;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+
+.container-btn3{
+    width: 1050px;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 170px;
+
+}
+
+
+
+.contenedor-hoteles-textos{
+    width: 285px;
+    height: auto;
+    position: absolute;
+    top: 500px;
+    left: 195px;
+    
+}
+
+
+.caja-1-img{
+    width: 320px;
+    height: auto;
+}
+
+.nombre-hotel{
+    color: #575756;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+
+}
+
+.ubicacion-hotel{
+    color: #979797;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.location-hotel{
+    width: 10px;
+    padding-right: 5px;
+}
+
+.descripcion-hotel{
+    width: 260px;
+    color: #828181;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.4;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.price-hotel{
+    color: #5747ee;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.texto-night-light{
+    color: #979797;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.boton1-bi{
+    width: 167px;
+    height: 35px;
+    background-color: #dcdcdc;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 0px;
+
+
+}
+
+.boton1-bi:hover{
+    background-color: #5747ee;
+
+}
+
+
+.heart-fav{
+    width: 16px;
+    height: 14px;
+    position: absolute;
+    left: 255px;
+    top: 5px;
+}
+
+
+.stars-hotel{
+    position: absolute;
+    top: 107px;
+    left: 220px;
+    color: #575756;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    
+}
+
+.contador-light{
+    font-weight: 400;
+    color: #979797;
+    font-size: 11px;
+
+
+}
+
+
+.stars-fav{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 108px;
+    left: 205px;
+}
+
+.descuento-hotel{
+    color: white;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    position: absolute;
+    top: 1050px;
+    left: 200px;
+
+
+}
+
+
+.contenedor-hoteles-textos2{
+    width: 285px;
+    height: 500px;
+    position: absolute;
+    top: 500px;
+    left: 560px;
+    
+}
+
+
+
+
+.contenedor-hoteles-textos3{
+    width: 285px;
+    height: auto;
+    position: absolute;
+    top: 500px;
+    left: 925px;
+    
+}
+
+.contenedor-hoteles-textos4{
+    width: 285px;
+    height: auto;
+    position: absolute;
+    top: 900px;
+    left: 195px;
+    
+}
+
+
+.contenedor-hoteles-textos5{
+    width: 285px;
+    height: auto;
+    position: absolute;
+    top: 900px;
+    left: 560px;
+    
+}
+
+.contenedor-hoteles-textos6{
+    width: 285px;
+    height: auto;
+    position: absolute;
+    top: 900px;
+    left: 925px;
+    
+}
+
+.btn1-r{
+    width: 100px;
+    height: 100px;
+    border: 1px;
+    border-color: #5747ee;
+    border-style: solid;
+}
+
+.btn1-r:hover{
+    background-color:#dcdcdc;
+    color: white;
+
+}
+
+
+
+
+.container-btn-reserva{
+    width: 370px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 400px;
+    left: 800px;
+}
+
+.reserva-img{
+    width: 500px;
+    height: auto;
+    margin-left: 200px;
+}
+
+.rva-img{
+    width: 60px;
+}
+
+
+.location-hotel{
+    width: 10px;
+    padding-right: 5px;
+}
+
+
+#hotel1{
+    width: 300px;
+    height: 370px;
+}
+
+.hotel1-img{
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 300px;
+    height: auto;
+}
+
+
+.hotel2-img{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 300px;
+    height: auto;
+}
+
+#hotel3{
+    width: 300px;
+}
+
+
+.hotel3-img{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 300px;
+    height: auto;
+}
+
+.btn-help{
+    text-decoration: none;
+    border-style: none;
+}
+
+
+.help-icon{
+    margin-left: 30px;
+    width: 65px;
+}
+
+.parrafo{
+    display: none;
+}
+.help-text{
+    width: 160px;
+    color: white;
+    background-color: #5747ee;
+    font-family: 'Nunito San', sans-serif; 
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0px;
+    position: absolute;
+    top: 570px;
+    left: 130px;
+
+
+}
+
+
+
+.contact-body{
+    background-image: url('../images/background-contact.png');
+    background-repeat: no-repeat;
+}
+
+.boton8{
+    width: 169px;
+    height: 46px;
+    background-color: #dcdcdc;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 25px;
+    border: 0px;
+    position: absolute;
+    left: 195px;
+    top: 495px;
+
+}
+
+.boton8:hover{
+    background-color: #5747ee;
+
+}
+
+.boton9{
+    width: 169px;
+    height: 46px;
+    background-color: #dcdcdc;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 25px;
+    border: 0px;
+    margin-left: 17px;
+    margin-top: 0px;
+    position: absolute;
+    top: 495px;
+    left: 360px;
+}
+
+.boton9:hover{
+    background-color: #5747ee;
+
+}
+
+
+
+
+.contact-section-h1{
+    width: 350px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 125px;
+    color: #3c3c3b;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 800;
+    font-size: 37px;
+    letter-spacing: 0.3px;
+    line-height: 1;
+}
+
+
+.p1-contact{
+    width: 455px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 200px;
+    color:#7c7c7b;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+
+.contact-h3{
+    color: #5747ee;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    margin-top: 25px;
+    margin-left: 200px;
+    padding-bottom: 5px;
+
+}
+
+.btn-ctz1{
+    width: 150px;
+    height: 36px;
+    background-color: #5747ee;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    border: 0px;
+}
+
+
+.btn-ctz2{
+    width: 150px;
+    height: 36px;
+    background-color: #d6d4d4;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    border: 0px;
+    padding-left: 10px;
+}
+
+
+.btn-ctz2:hover{
+    width: 150px;
+    height: 36px;
+    background-color: #5747ee;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.contenedor-botones{
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 235px;
+
+}
+
+.aclaracion{
+    margin-left: 12px;
+    color: #919191;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 12px;
+
+}
+
+.btn-modal{
+    width: 150px;
+    height: 36px;
+    background-color: #5747ee;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    border: 0px;
+
+}
+
+.btn-modal:hover{
+    width: 150px;
+    height: 36px;
+    background-color: #5747ee;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    border: 0px;
+
+}
+
+
+a:not([href]):hover {
+    width: 150px;
+    height: 36px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-primary{
+    width: 150px;
+    height: 36px;
+    background-color: #d6d4d4;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    border: 0px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-right:10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 320px;
+    left: 150px;
+
+
+}
+
+.btn-primary:hover {
+    background-color: #5747ee;
+    color: white;
+
+}
+
+
+
+
+
+.cotizar-img{
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 800px;
+
+}
+
+#contenedor-cotizacion{
+    width: 700px;
+    height: 100px;
+    margin-left: 300px;
+    margin-top: 80px;
+    align-items: center;
+
+}
+
+.precio-total{
+    color: #5747ee;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    padding-bottom: 10px;
+
+}
+
+.container-out-box{
+    width: 420px;
+    height: 420px;
+    background-color: white;
+    border: 1.5px solid #e4e4e4; 
+    border-style: solid;
+    border-radius: 25px;
+    position: absolute;
+    top: 220px;
+    left: 750px;
+
+}
+
+.name-form-edit{
+    width: 340px;
+    height: 35px;
+    text-rendering: auto;
+    color: rgb(71, 71, 71);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: #eeeded;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 10px;
+    border-width: 2px;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+
+.name-form-edit2{
+    width: 340px;
+    height: 35px;
+    text-rendering: auto;
+    color: rgb(71, 71, 71);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: #eeeded;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin-left: 40px;
+    font: 400 13.3333px Arial;
+    padding: 10px;
+    border-width: 2px;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 10px;
+}
+
+
+.textarea-about{
+    width: 340px;
+    height: 110px;
+    text-rendering: auto;
+    color:  rgb(71, 71, 71);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textarea;
+    background-color: #eeeded;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    margin-top: 20px;
+    margin-left: 55px;
+    font: 400 13.3333px Arial;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+
+a:not([href]) {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-edit{
+    width: 169px;
+    height: 46px;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #dcdcdc;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    border: 0px;
+    position: absolute;
+    left: 150px;
+    top: 330px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-edit:hover{
+    background-color: #5747ee;
+}
+
+.footer-contact{
+    display:none;
+}
+
+
+/* Medium devices (landscape tablets, up to 992px) */
+@media only screen and (max-width: 992px) and (min-width: 768px){
+      
+
+    .menu-principal ul{
+        list-style: none;
+        margin: 0px; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 85px;
+        position: absolute;
+        top: 45px;
+        left: 550px;
+    
+    }
+    
+
+}
+
+
+/* Small devices (portrait tablets and large phones up to 632px ) */
+@media only screen and (max-width: 632px) {
+    
+    .menu-principal ul{
+        list-style: none;
+        margin: 0px; 
+        display: none;
+        flex-direction: column;
+        text-align: right;
+        justify-content: space-between;
+        height: 130px;
+        position: absolute;
+        padding-bottom: 5px;
+        top: 13%;
+        left: 80%;
+    
+    }
+
+    .menu-principal ul li a{
+        background-color: white;
+        color:#919191;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 900;
+        font-size: 14px;
+        margin-bottom: 15px;
+     
+      }
+
+    #menu-toggle:checked + .menu-principal ul{
+        display: flex;
+    }
+
+    .menu-togglearea{
+        position: absolute;
+        top: 3%;
+        left: 88%;
+        display: flex;
+    
+    }
+
+
+
+  }
+
+
+
+
+h1{
+    width: 380px;
+    height: 92px;
+    margin-left: 150px;
+    margin-top: 196px;
+    color: #3c3c3b;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 800;
+    font-size: 37px;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+}
+
+
+.span-t{
+    color: #5747ee;
+}
+
+
+.p1{
+    width: 527px;
+    height: 85px;
+    margin-top: 10px;
+    margin-left: 150px;
+    color:#7c7c7b;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.span-p{
+    font-weight: 600;
+    color: #575756;
+}
+
+#mockup1{
+    position: absolute;
+    top: 90px;
+    left: 800px;
+    transform-origin: bottom;
+    animation-duration: 2s;
+    animation-iteration-count: 2s;
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+
+
+.boton1{
+    width: 169px;
+    height: 46px;
+    background-color: #dcdcdc;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 25px;
+    border: 0px;
+    position: absolute;
+    left: 150px;
+    top: 460px;
+
+}
+
+.boton1:hover{
+    background-color: #5747ee;
+
+}
+
+.boton1-img{
+    width: 130px;
+    height: 31px;
+    margin-left: 17px;
+    margin-top: 8px;
+}
+
+
+.icon-select1{
+    width: 38px;
+    position: absolute;
+    top: 403px;
+    left: 770px;
+}
+
+.icon-select2{
+    width: 40px;
+    position: absolute;
+    top: 404px;
+    left: 1020px;
+}
+
+.icon-select3{
+    width: 40px;
+    position: absolute;
+    top: 400px;
+    left: 900px;
+}
+
+
+
+.viajeros{
+    width: 450px;
+    height: auto;
+    margin-left: 130px;
+}
+.container-btn3{
+    height: auto;
+}
+
+.boton2{
+    width: 169px;
+    height: 46px;
+    background-color: #dcdcdc;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 25px;
+    border: 0px;
+    margin-left: 17px;
+    margin-top: 0px;
+    position: absolute;
+    top: 460px;
+    left: 325px;
+}
+
+.boton2:hover{
+    background-color: #5747ee;
+
+}
+
+.boton2-img{
+    width: 135px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+
+#section-3-1{
+    width: 1292px;
+    height: 813px;
+    margin-top: 350px;
+}
+
+
+#people-container{
+    width: 350px;
+    height: auto;
+    color: #3c3c3b;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    border: 0px;
+    border-color: #979797;
+    position: absolute;
+    top: 460px;
+    left: 770px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+select{
+width: 50px;
+border: none;
+border-radius: 4px;
+background-color: #f1f1f1;
+}
+
+.form-section-name-chose{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    padding-bottom: 0px;
+    margin-top: 0px;
+
+}
+.btn-send2{
+    width: 170px;
+    height: 36px;
+    background-color: #dcdcdc;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    border: 0px;
+    position: absolute;
+    top: 480px;
+    left: 870px;
+    margin-left: 0px;
+    margin-top: 60px;
+
+
+}
+.btn-send2:hover{
+    color: white;
+    background-color: #5747ee;
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 632px) {
+
+
+
+
+
+
+h1{
+    width: 80%;
+    height: 92px;
+    margin-left: 10%;
+    margin-top: 110%;
+    color: #3c3c3b;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 800;
+    font-size: 35px;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+}
+
+.p1{
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10%;
+    color:#7c7c7b;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.span-p{
+    font-weight: 600;
+    color: #575756;
+}
+
+
+#mockup1{
+    width: 320px;
+    height: auto;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    transform-origin: bottom;
+    animation-duration: 2s;
+    animation-iteration-count: 2s;
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+.boton1{
+    width: 169px;
+    height: 46px;
+    background-color: #dcdcdc;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 25px;
+    border: 0px;
+    position: absolute;
+    left: 45px;
+    top: 820px;
+
+}
+
+.boton2{
+    width: 169px;
+    height: 46px;
+    background-color: #dcdcdc;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 25px;
+    border: 0px;
+    margin-left: 17px;
+    margin-top: 0px;
+    position: absolute;
+    top: 820px;
+    left:215px;
+}
+
+    
+}
+
+/* Medium devices (landscape tablets, up to 992px) */
+@media only screen and (max-width: 992px) and (min-width: 768px){
+        
+h1{
+   
+    margin-left: 80px;
+
+}
+
+
+.p1{
+    width: 510px;
+    height: 85px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.boton1{
+    position: absolute;
+    left: 80px;
+}
+
+.boton2{
+    position: absolute;
+    top: 460px;
+    left: 250px;
+}
+
+#mockup1{
+    width: 320px;
+    height: auto;
+    position: absolute;
+    top: 90px;
+    left: 600px;
+    transform-origin: bottom;
+    animation-duration: 2s;
+    animation-iteration-count: 2s;
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+
+}
+
+
+
+#chica-saltando{
+    width: 443px;
+    height: 383px;
+    position: absolute;
+    top: 800px;
+    left: 120px;
+}
+
+
+.contenedor-parte2{
+    width: 430px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 800px;
+    left: 750px;
+    
+}
+
+.pin{
+    width: 49px;
+    height: 53px;
+    position: absolute; 
+    top: 120px;
+    left: 3px;
+}
+
+.price{
+    width: 49px;
+    height: 53px;
+    position: absolute; 
+    top: 214px;
+    left: 3px;
+}
+
+
+.stars{
+    width: 49px;
+    height: 53px;
+    position: absolute; 
+    top: 302px;
+    left: 3px;
+}
+
+
+.welcome-title{
+    width: auto;
+    height: auto;
+    color: #5747ee;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    margin-top: 120px;
+    margin-left: 75px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    text-align: left;
+
+}
+
+.section-title{
+    color: #575756;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    margin-top: 0px;
+    margin-left: 75px;
+    padding-bottom: 5px;
+
+}
+
+.container-btn{
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 260px;
+    margin-top: 50px;
+}
+
+button{
+    background-color:transparent;
+}
+
+
+.btn1{
+    width: 250px;
+    text-decoration: none;
+    border-style: none;
+    
+}
+
+
+.btn2{
+    width: 250px;
+    text-decoration: none;
+    border-style: none;
+    
+}
+
+
+.btn3{
+    width: 250px;
+    text-decoration: none;
+    border-style: none;
+    
+}
+
+
+.name-type{
+    color: #5747ee;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    margin-left: 0px;
+    padding-bottom: 5px;
+}
+
+
+.container-btn2{
+    width: 900px;
+    height: auto;
+    margin-left: 180px;
+    margin-top: 0px;
+}
+
+
+.viajero{
+    width: 440px;
+    height: 400px;
+
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 100px;}
+    
+  }
+    
+
+  .btn-send{
+    width: 150px;
+    height: 36px;
+    background-color: #5747ee;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    border: 0px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    margin-left: 0px;
+    margin-top: 60px;
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2{
+    color: #3c3c3b;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 800;
+    font-size: 32px;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    
+}
+
+h3{
+    color: #5747ee;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    margin-left: 75px;
+    padding-bottom: 5px;
+}
+
+
+
+.textos-chicos{
+    color:#7c7c7b;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 14px;
+    margin-left: 75px;
+}
+
+
+/* Small devices (portrait tablets and large phones, up to 600px) */
+@media only screen and (max-width: 632px) {
+
+    #chica-saltando{
+        width: 75%;
+        height: auto;
+        position: absolute;
+        top: 960px;
+        left: 60px;
+    }
+
+    .contenedor-parte2{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        position: absolute;
+        top: 215%;
+        left: 10%;
+        
+    }
+    
+    .pin{
+        width: 49px;
+        height: 53px;
+        position: absolute; 
+        top: 120px;
+        left: 3px;
+    }
+    
+    .price{
+        width: 49px;
+        height: 53px;
+        position: absolute; 
+        top: 214px;
+        left: 3px;
+    }
+    
+    
+    .stars{
+        width: 49px;
+        height: 53px;
+        position: absolute; 
+        top: 302px;
+        left: 3px;
+    }   
+    
+    
+    h2{
+        color: #3c3c3b;
+        font-family: 'Nunito Sans', sans-serif; 
+        font-weight: 800;
+        font-size: 30px;
+        letter-spacing: 0.3px;
+        line-height: 1.2;
+        margin-bottom: 7%;
+        padding-bottom: 30px;
+        
+    }
+    
+    h3{
+        color: #5747ee;
+        font-family: 'Nunito Sans', sans-serif; 
+        font-weight: 900;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+        line-height: 1.2;
+        margin-left: 20%;
+        padding-bottom: 5px;
+    }
+    
+    
+    
+    .textos-chicos{
+        color:#7c7c7b;
+        font-family: 'Nunito Sans', sans-serif; 
+        font-weight: 400;
+        line-height: 1.5;
+        font-size: 14px;
+        margin-left: 20%;
+        padding-bottom: 7%;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, up to 992px) */
+@media only screen and (max-width: 992px) and (min-width: 768px){
+
+    
+#chica-saltando{
+    width: 380px;
+    height: auto;
+    position: absolute;
+    top: 800px;
+    left: 60px;
+}
+
+.contenedor-parte2{
+    width: 430px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 750px;
+    left: 460px;
+    
+}
+
+        
+      
+}
+
+
+
+#section-3{
+    width: 1292px;
+    height: 813px;
+    margin-top: 1000px;
+}
+
+
+.contenedor-parte3{
+    text-align: center;
+    width: 950px;
+    height: 406px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
+    position: absolute;
+    top: 1670px;
+    left: 215px;
+    
+}
+
+.tercer-titulo{
+    text-align: center;
+    margin-left: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.p2{
+    width: 735px;
+    height: 228px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 310px;
+    color:#7c7c7b;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+
+.nombres{
+    color: #5747ee;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    margin-left: 0px;
+    padding-bottom: 0px;
+
+}
+
+.in-black{
+    color: #3c3c3b; 
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 632px) {
+
+    #section-3{
+        width: 100%;
+        height: auto;
+        margin-top: 200%;
+    }
+    
+    
+    .contenedor-parte3{
+        text-align: center;
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 100px;
+        position: absolute;
+        top: 320%;
+        left: 20%
+        
+    }
+    
+    .tercer-titulo{
+        text-align: left;
+        margin-left: 5%;
+        margin-bottom: 0px;
+        padding: 5%;
+    }
+    
+    .p2{
+        width: 80%;
+        height: auto;
+        text-align: left;
+        margin-left: 10%;
+        color:#7c7c7b;
+        font-family: 'Nunito Sans', sans-serif; 
+        font-weight: 400;
+        line-height: 1.6;
+        font-size: 14px;
+    }
+    
+    
+    .nombres{
+        color: #5747ee;
+        font-family: 'Nunito Sans', sans-serif; 
+        font-weight: 900;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+        line-height: 1.2;
+        margin-left: 0px;
+        padding-bottom: 0px;
+    
+    }
+    
+    .in-black{
+        color: #3c3c3b; 
+        font-family: 'Nunito Sans', sans-serif; 
+        font-weight: 900;
+        margin: 5px 0px 0px 0px;
+        padding: 0px;
+    
+    }
+    
+    .contenedor-parte3-caja{
+        width:260px;
+        height: 300px;
+        margin: 10px;
+        padding-right: 20px;
+    }
+    
+    .joseph{
+        width: 127px;
+        height: 124px;
+        padding-bottom: 15px;
+    }
+    
+    .anne{
+        width: 127px;
+        height: 124px;
+        padding-bottom: 15px;
+    }
+    
+    .rose{
+        width: 127px;
+        height: 124px;
+        padding-bottom: 15px;
+    }
+    
+    
+    .textos-chicos2{
+        color:#7c7c7b;
+        font-family: 'Nunito Sans', sans-serif; 
+        font-weight: 400;
+        line-height: 1.5;
+        font-size: 13px;
+        margin-left: 0px;
+        margin-top: 17px;
+        padding-bottom: 5px;
+    }
+    
+    .stars-rec1{
+        width: 168px;
+        height: 32px;
+        margin-right: 15px;
+    }
+    
+    .stars-rec2{
+        width: 168px;
+        height: 32px;
+        margin-right: 18px;
+    }
+    
+    .stars-rec3{
+        width: 168px;
+        height: 32px;
+        margin-right: 18px;
+    }
+    
+
+
+}
+
+/* Medium devices (landscape tablets, up to 992px) */
+@media only screen and (max-width: 992px) and (min-width: 768px){
+
+    #section-3{
+        width: 900px;
+        height: 813px;
+        margin-top: 1000px;
+    }
+
+    .contenedor-parte3{
+        text-align: center;
+        width: 900px;
+        height: 406px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 30px;
+        position: absolute;
+        top: 1670px;
+        left: 30px;
+        
+    }
+    
+    .tercer-titulo{
+        text-align: center;
+        margin-left: 80px;
+    }
+    
+    .p2{
+        width: 735px;
+        height: 228px;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 120px;
+        color:#7c7c7b;
+        font-family: 'Nunito Sans', sans-serif; 
+        font-weight: 400;
+        line-height: 1.7;
+        font-size: 15px;
+    }
+    
+    
+
+
+}
+
+
+
+
+.pie-de-pagina{
+    width: 1341px;
+    height: 500px;
+    position: relative;
+    top: 2200;
+
+}
+
+.try-it{
+    width: 477px;
+    height: 113px;
+    margin-left: 425px;
+    text-align: center;
+    color:white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 800;
+    font-size: 52px;
+    letter-spacing: 0.3px;
+    line-height: 1;
+    margin-bottom: 0px;
+    margin-top: 60px;
+    
+}
+
+.boton3{
+    width: 202px;
+    height: 54px;
+    background-color: #dcdcdc;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 25px;
+    border: 0px;
+    position: absolute;
+    left: 430px;
+    top: 180px;
+    margin-left:10px;
+    background-image: url('../images/applestorevioleta.svg'); 
+    background-repeat: no-repeat;
+    
+}
+
+.boton3:hover{
+    background-image: url('../images/appstoreblanco2.svg');
+    background-repeat: no-repeat;
+    background-color: #07c8df;
+
+}
+
+
+
+
+.boton4{
+    width: 202px;
+    height: 54px;
+    background-color: #dcdcdc;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 25px;
+    border: 0px;
+    position: absolute;
+    left: 670px;
+    top: 180px;
+    background-image: url('../images/googleplayvioleta.svg'); 
+    background-repeat: no-repeat;
+    
+
+}
+
+.boton4:hover{
+    background-image: url('../images/googleplayblancov2.svg');
+    background-repeat: no-repeat;
+    background-color: #07c8df;
+
+}
+
+
+.stay-tuned-blanco{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 900;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-left: 609px;
+    margin-top: 180px;
+}
+
+
+.linea1{
+    position: absolute;
+    top: 300px;
+    left: 450px;
+}
+
+.linea2{
+    position: absolute;
+    top: 300px;
+    left: 720px;
+}
+
+
+.redes1{
+    width: 43px;
+    height: 43px;
+    align-items: center;
+    position: absolute;
+    top: 350px;
+    left:560px;
+    background-image: url('../images/logofacebook.svg'); 
+    background-repeat: no-repeat;
+    
+}
+
+.redes1:hover{
+    background-image: url('../images/logofacebookhover.svg');
+    background-repeat: no-repeat;
+}
+
+
+
+.redes2{
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    top: 350px;
+    left: 630px;
+    background-image: url('../images/instagramlogo.svg'); 
+    background-repeat: no-repeat;
+}
+
+.redes2:hover{
+    background-image: url('../images/instagramlogohover.svg');
+    background-repeat: no-repeat;
+}
+
+
+.redes3{
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    top: 350px;
+    left: 700px;
+    background-image: url('../images/logotwitter.svg'); 
+    background-repeat: no-repeat;
+}
+
+.redes3:hover{
+    background-image: url('../images/logotwitterhover.svg');
+    background-repeat: no-repeat;
+}
+
+
+footer{
+    display: none;
+    position: absolute;
+    top: 2800px;
+    left: 60px;
+    color:white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 632px) {
+    .pie-de-pagina{
+       display: none;
+    
+    }
+    
+    footer{
+    width: 632px;
+    height: 20px;
+    position: absolute;
+    top: 3000px;
+    left: 20px;
+    background-color: #5747ee;
+    color:white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+}
+
+/* Medium devices (landscape tablets, up to 992px) */
+@media only screen and (max-width: 992px) and (min-width: 768px){
+
+        
+.pie-de-pagina{
+    width: 900px;
+    height: 500px;
+    position: relative;
+    top: 2200;
+
+}
+
+.try-it{
+    width: 477px;
+    height: 113px;
+    margin-left: 230px;
+
+}
+
+.boton3{
+    position: absolute;
+    left: 240px;
+    top: 180px;
+    margin-left:10px;
+
+    
+}
+
+
+.boton4{
+    position: absolute;
+    left: 480px;
+
+}
+
+
+.stay-tuned-blanco{
+    margin-left: 420px;
+
+}
+
+
+.linea1{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+}
+
+.linea2{
+    position: absolute;
+    top: 300px;
+    left: 540px;
+}
+
+
+.redes1{
+    position: absolute;
+    top: 350px;
+    left: 370px;
+
+}
+
+.redes2{
+    position: absolute;
+    top: 350px;
+    left: 445px;
+
+}
+
+
+.redes3{
+    position: absolute;
+    top: 350px;
+    left: 520px;
+}
+
+}
+

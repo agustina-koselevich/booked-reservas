@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<html lang="en">
+    <head>
+        <title>Booked App</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+		<meta name="description" content="Website to promote Booked app">
+		<meta name="keywords" content="App, travel, booked, experiences">
+        <meta name="author" content="Agustina Koselevich">
+        <link rel="shortcut icon" type="image/png" href="images/favicon.svg">
+        <link rel="stylesheet" href="styles/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;1,900&amp;display=swap" rel="stylesheet">
+    </head>
+		<body class="body-homepage">
+			<header>
+				<nav class="menu-principal">
+                    <a href="index.html"><img id="logo" src="images/logo.svg" alt="Booked logo"/></a>
+					<ul>
+						<li>
+							<a href="index.html" class="current"> Home </a>
+						</li>
+						<li>
+							<a href="features.html"> Features </a>
+						</li>
+						<li>
+							<a href="about.html"> About </a>
+						</li>
+						<li>
+							<a href="faqs.html"> FAQs </a>
+						</li>
+						<li>
+							<a href="contact.html"> Contact </a>
+						</li>
+					</ul>
+                </nav>
+            </header>
+            <section>
+    
+                <div id="steps">
+                    <h1 class="welcome-title">Let's find your ideal hotel...</h1>
+                    <div id="step1" style="display: show">
+                        <h2 class="section-title">What type of hotel do you want?</h2> 
+                        <div class="container-btn" role="group" aria-label="Basic example" id="selectHotelType">
+                            <button type="button" class="btn1" value="1">
+                                <img src="images/hotel.svg" class="btn-img" alt="hotel clásico" >
+                                <h3 class="name-type">Classic</h3>
+                            </button>
+                            <button type="button" class="btn2" value="2">
+                                <img src="images/apartment.svg" class="btn-img" alt="hotel clásico" >
+                                <p class= "name-type">Apartment</p>
+                            </button>
+                            <button type="button" class="btn3" value="3">
+                                <img src="images/luxury.svg" class="btn-img" alt="hotel clásico" >
+                                <p class= "name-type">Luxury</p>
+                            </button>
+                        </div>
+                     <button type="button" class="btn-help">
+                    <img src="images/help.svg" class="help-icon" alt="help-icon" >
+                    </button>
+                    <div class="parrafo" id="result-p">
+                    <p class= "help-text"> If you have any question please go to Faqs section on the top menu</p>
+                    </div> 
+                        </div>
+                        <div id="step2" style="display: none">
+                            <h2 class="section-title">Which country do you want to travel to?</h2> 
+                            <div class="container-btn2" role="group" aria-label="Basic example" id="selectCountryContainer">
+                                <img class="viajero" src="images/viajer.svg" alt="Traveller illustration" />
+                                <div class="bar-container">
+                                    <select id="countrySelect" name="country" required>
+                                        <option value="0" disabled selected>Select one country</option>
+                                        <option value="1">Spain</option>
+                                        <option value="2">USA</option>
+                                        <option value="3">France</option>
+                                        <option value="4">England</option>
+                                        <option value="5">Poland</option>
+                                        </select>
+                                        <input id="continue-button" type="submit" value="Continue" class="btn-send" />
+                                </div>
+                            </div>
+                            </div>
+                            <div id="step3" style="display: none">
+                                <h2 class="section-title"> Now it is time for you tu choose the perfect room!</h2> 
+                                <div class="container-btn3" role="group" aria-label="Basic example" id="selectRoom">
+                                    <div class="contenedor-hoteles-caja">
+                                        <div id="hotel1">
+                                            <div class="contenedor-hoteles-textos">
+                                             <img class="location-hotel" src="images/location-hotel.svg" alt="location"/>
+                                             <img class="stars-fav" src="images/stars-hotel.svg" alt="heart"/>
+                                             </div>
+                                         </div>
+                                         <input id="boton-booked" type="button" value="Book this room" class="boton1-bi"/>
+                                     </div>
+                                </div>  
+                            </div>
+                            <div id="step4" style="display: none">
+                                <h2 class="section-title">These are our available dates </h2> 
+                                <img class="reserva-img" src="images/reserva.svg" alt="persona reservando"/>
+                                <div class="container-btn-reserva" role="group" aria-label="Basic example" id="selectDate">
+                                    <button type="button" class="btn1-r" value="1">
+                                        <img src="images/calendar.svg" class="rva-img" alt="hotel clásico" >
+                                        <h3 class="name-type">JUN 10-17</h3>
+                                    </button>
+                                    <button type="button" class="btn1-r" value="2">
+                                        <img src="images/calendar.svg" class="rva-img" alt="hotel clásico" >
+                                        <h3 class= "name-type">FEB 7-14</h3>
+                                    </button>
+                                    <button type="button" class="btn1-r" value="3">
+                                        <img src="images/calendar.svg" class="rva-img" alt="hotel clásico" >
+                                        <h3 class= "name-type">FEB 14-21</h3>
+                                    </button>
+                                </div>
+
+                                </div>
+                                <div id="step5" style="display: none">
+                                    <h2 class="section-title">How many people are in your party?</h2> 
+                                    <img class="viajeros" src="images/viajeros.svg" alt="persona reservando"/>
+                                    <div id="people-container">
+                                        <h5 class="form-section-name-chose"> Rooms </h4>
+                                            <select id="roomsSelect" name="rooms">
+                                                <option value="0" disabled selected>0</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                              </select>
+                                        <h5 class="form-section-name-chose"> Adults </h4>
+                                              <select id="adultsSelect" name="adults">
+                                                <option value="0" disabled selected>0</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                              </select>
+                                        <h5 class="form-section-name-chose"> Kids </h4>
+                                              <select id="kidsSelect" name="kids">
+                                                <option value="0">0</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                              </select>
+                                    </div>
+                                    <input id="continue-button2" type="button" value="Continue" class="btn-send2" />
+                                    <img class="icon-select1" src="images/door.svg" alt="door"/>
+                                    <img class="icon-select2" src="images/kids.svg" alt="door"/>
+                                    <img class="icon-select3" src="images/adults.svg" alt="door"/>
+    
+                                    </div>
+                                    </div>
+                                    <div id="step6" style="display: none">
+                                    <h2 class="section-title">This is the final price of the reservation</h2> 
+                                    <img class="cotizar-img" src="images/travellers.svg" alt="persona reservando"/>
+                                    <div id="contenedor-cotizacion">
+                                    <p class="precio-total">4700 ARS</p>
+                                    <h4 class="aclaracion">*This price contains taxes.</h4>
+                                        </div>
+                                        <div class="contenedor-botones">
+                                            <input id="continue-button-ctz" type="button" value="Booked" class="btn-ctz1" />
+                                            <input id="continue-buttonctz2" type="button" value="Home" class="btn-ctz2" />
+                                            </div>
+                                    </div>
+                                    <div id="step7" style="display: none">
+                                        <h2 class="section-title">Last step! We need to know a little more about you...</h2> 
+                                        <img class="chica-compu" src="images/chica-concompu.svg" alt="persona reservando"/>
+                                        <div class="container-out-box">
+                                            <div class="container-formulario">
+                                              <div class="row">
+                                                <div class="col-md-4">
+                                                  <form>
+                                                    <div id="contact-form" class="form-container" data-form-container="">
+                                                      <div class="input-container">
+                                                        <div class="row">
+                                                          <span class="req-input"><input class="name-form-edit" type="text" data-min-length="8" placeholder="Name" required></span>
+                                                        </div>
+                                                          <span class="req-input"><input class="name-form-edit2" type="Email" placeholder="Email"required></span>
+                                                        </div>
+                                                        <div class="row">
+                                                          <span class="req-input message-box">
+                                                          <textarea type="textarea" data-min-length="10" placeholder="Write your message here" class="textarea-about"></textarea></span>
+                                                        </div>
+                                                        <div class="row submit-row">
+                                                            <a class="btn btn-primary" type="button" data-toggle="modal" data-target="#modalSuccessfully" data-dismiss="modal">Aceptar</a>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </form>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="modal fade" id="modalSuccessfully" tabindex="-1" role="dialog" aria-labelledby="modalSuccessfullyLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-body text-center">
+                                                    <h2>Congratulations!<span class="userName"></span>!</h2>
+                                                    <p>In a few minutes you will receive an email with all the reservation information and the link so you can pay, Thank you!</p>
+                                                </div>
+                                                <div class="modal-footer d-flex justify-content-center">
+                                                    <a href="index.html" class="btn"> Back to home </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                    </div>
+                </section>
+              
+            <footer>
+             ®Booked 2019-2020 All right reserved 
+            </footer>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+            <script defer src="js/main.js"></script>
+		</body>
+</html>

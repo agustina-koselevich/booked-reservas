@@ -1,0 +1,14 @@
+[
+    {
+        "id": "hotel1",
+        "name": "Bacheda Hotel krakow",
+        "location": "Krakow, Poland",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna",
+        "precio": 11800,
+        "rate": 4.85,
+        "img": "images/frame1.svg"
+    }
+]
+
+
+
